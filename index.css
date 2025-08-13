@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #eeeb33, #62bddb, #2c5364);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#card {
+  width: 250px;          
+  height: 250px;         
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;   
+  display: flex;        
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;   
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+#clock {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
+
+#message {
+  font-size: 1.2rem;
+  color: #ddd;
+}
